@@ -17,4 +17,3 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 require("../rooms/show")
-// require("../rooms_show")
