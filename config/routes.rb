@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root 'rooms#show'
+  devise_for :users
+  root "rooms#index"
+  get "rooms/show"
 end
